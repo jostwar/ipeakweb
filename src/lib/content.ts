@@ -11,7 +11,8 @@ type ContentProvider = "local" | "sanity";
 
 const getProvider = (): ContentProvider => {
   const hasSanity =
-    process.env.SANITY_PROJECT_ID && process.env.SANITY_DATASET;
+    (process.env.SANITY_PROJECT_ID || process.env.NEXT_PUBLIC_SANITY_PROJECT_ID) &&
+    (process.env.SANITY_DATASET || process.env.NEXT_PUBLIC_SANITY_DATASET);
   return hasSanity ? "sanity" : "local";
 };
 
@@ -25,8 +26,10 @@ async function readJsonFile<T>(filename: string): Promise<T> {
 
 const getSanityClient = () =>
   createClient({
-    projectId: process.env.SANITY_PROJECT_ID,
-    dataset: process.env.SANITY_DATASET,
+    projectId:
+      process.env.SANITY_PROJECT_ID || process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+    dataset:
+      process.env.SANITY_DATASET || process.env.NEXT_PUBLIC_SANITY_DATASET,
     apiVersion: process.env.SANITY_API_VERSION || "2024-04-10",
     useCdn: true,
     token: process.env.SANITY_READ_TOKEN,
