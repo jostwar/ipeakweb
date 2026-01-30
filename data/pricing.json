@@ -1,0 +1,45 @@
+[
+  {
+    "id": "starter",
+    "name": "Starter",
+    "subtitleEs": "Base sólida para empezar con foco.",
+    "subtitleEn": "A strong foundation to start with focus.",
+    "features": [
+      "Estrategia y diagnóstico inicial",
+      "1 canal principal con optimización",
+      "2 campañas mensuales",
+      "Reportes mensuales y KPIs",
+      "Soporte por email"
+    ],
+    "note": "Sin contratos largos (según plan)."
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "subtitleEs": "Escala leads con automatización y contenido.",
+    "subtitleEn": "Scale leads with automation and content.",
+    "features": [
+      "Estrategia multicanal",
+      "Automatizaciones y nurturing",
+      "Contenido mensual optimizado",
+      "Optimización de conversión",
+      "Soporte prioritario"
+    ],
+    "highlight": true,
+    "note": "Ideal para equipos en crecimiento."
+  },
+  {
+    "id": "scale",
+    "name": "Scale",
+    "subtitleEs": "Crecimiento agresivo con AI y performance.",
+    "subtitleEn": "Aggressive growth with AI and performance.",
+    "features": [
+      "AI assistants 24/7",
+      "Optimización avanzada de embudos",
+      "Integraciones con CRM y herramientas",
+      "Reportes semanales y analítica avanzada",
+      "Soporte dedicado"
+    ],
+    "note": "Prioridad máxima y SLAs."
+  }
+]

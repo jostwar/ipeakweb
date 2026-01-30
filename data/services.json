@@ -1,0 +1,92 @@
+[
+  {
+    "id": "marketing",
+    "titleEs": "Marketing",
+    "titleEn": "Marketing",
+    "bulletsEs": [
+      "Aumenta leads calificados con campañas enfocadas en ROI.",
+      "Mejora conversión con pruebas A/B y optimización continua.",
+      "KPIs claros con reportes accionables mensuales."
+    ],
+    "bulletsEn": [
+      "Increase qualified leads with ROI-focused campaigns.",
+      "Improve conversion with A/B testing and ongoing optimization.",
+      "Clear KPIs with actionable monthly reporting."
+    ]
+  },
+  {
+    "id": "branding",
+    "titleEs": "Branding",
+    "titleEn": "Branding",
+    "bulletsEs": [
+      "Identidad visual coherente y premium en todos los canales.",
+      "Narrativa de marca que genera confianza y recordación.",
+      "Guías de estilo listas para escalar tu comunicación."
+    ],
+    "bulletsEn": [
+      "Cohesive premium visual identity across channels.",
+      "Brand narrative that builds trust and recall.",
+      "Style guides ready to scale your communication."
+    ]
+  },
+  {
+    "id": "web-design",
+    "titleEs": "Diseño Web",
+    "titleEn": "Web Design",
+    "bulletsEs": [
+      "Websites rápidos, elegantes y orientados a conversión.",
+      "Arquitectura clara para SEO y crecimiento orgánico.",
+      "Optimización móvil y performance desde el día uno."
+    ],
+    "bulletsEn": [
+      "Fast, elegant websites focused on conversion.",
+      "Clear architecture for SEO and organic growth.",
+      "Mobile-first optimization and performance from day one."
+    ]
+  },
+  {
+    "id": "app-design",
+    "titleEs": "Diseño de Apps",
+    "titleEn": "App Design",
+    "bulletsEs": [
+      "UX/UI centrado en usuarios y métricas de negocio.",
+      "Prototipos listos para validar en semanas, no meses.",
+      "Sistemas de diseño consistentes y escalables."
+    ],
+    "bulletsEn": [
+      "UX/UI centered on users and business metrics.",
+      "Prototypes ready to validate in weeks, not months.",
+      "Consistent and scalable design systems."
+    ]
+  },
+  {
+    "id": "content",
+    "titleEs": "Desarrollo de Contenidos",
+    "titleEn": "Content Development",
+    "bulletsEs": [
+      "Mensajes claros que elevan la percepción de valor.",
+      "Calendarios editoriales para escalar demanda.",
+      "Contenido optimizado para cada etapa del embudo."
+    ],
+    "bulletsEn": [
+      "Clear messaging that elevates perceived value.",
+      "Editorial calendars to scale demand.",
+      "Content optimized for every funnel stage."
+    ]
+  },
+  {
+    "id": "ai-assistants",
+    "titleEs": "Asistentes Virtuales con AI",
+    "titleEn": "AI Virtual Assistants",
+    "bulletsEs": [
+      "Automatiza ventas, soporte y atención al cliente 24/7.",
+      "Respuestas en tiempo real con tono profesional.",
+      "Integración con WhatsApp, web y redes sociales."
+    ],
+    "bulletsEn": [
+      "Automate sales, support, and customer care 24/7.",
+      "Real-time responses with a professional tone.",
+      "Integrations with WhatsApp, web, and social channels."
+    ]
+  }
+]

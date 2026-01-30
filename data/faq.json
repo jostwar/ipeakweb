@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faq-1",
+    "question": "¿Cuáles son los tiempos de entrega?",
+    "answer": "Dependen del alcance. Normalmente entre 2 y 6 semanas para entregables principales."
+  },
+  {
+    "id": "faq-2",
+    "question": "¿Cómo es el proceso de trabajo?",
+    "answer": "Arrancamos con un diagnóstico, definimos objetivos y ejecutamos con sprints semanales."
+  },
+  {
+    "id": "faq-3",
+    "question": "¿Qué incluye cada plan?",
+    "answer": "Incluye estrategia, ejecución y reportes. Los detalles cambian por nivel de soporte."
+  },
+  {
+    "id": "faq-4",
+    "question": "¿Cuántas revisiones están incluidas?",
+    "answer": "Incluimos revisiones acordes a cada plan. Ajustes adicionales se cotizan aparte."
+  },
+  {
+    "id": "faq-5",
+    "question": "¿Cómo funcionan los pagos?",
+    "answer": "Los pagos se realizan con Stripe. Puedes pagar mensual o por entregable."
+  },
+  {
+    "id": "faq-6",
+    "question": "¿Qué soporte ofrecen?",
+    "answer": "Soporte por email o dedicado según el plan. Respuestas en menos de 24h hábiles."
+  }
+]
