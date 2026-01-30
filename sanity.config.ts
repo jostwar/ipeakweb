@@ -10,6 +10,7 @@ export default defineConfig({
   title: "iPeak Agency CMS",
   projectId: projectId || "",
   dataset: dataset || "production",
+  basePath: "/studio",
   plugins: [deskTool()],
   schema: {
     types: schemaTypes,
