@@ -1,5 +1,6 @@
 export const dynamic = "force-dynamic";
 
+import Image from "next/image";
 import Link from "next/link";
 import { getServices } from "@/lib/content";
 
@@ -28,10 +29,25 @@ export default async function ServiciosPage() {
               className="rounded-3xl border border-white/10 bg-white/5 p-6"
             >
               <summary className="cursor-pointer text-lg font-semibold text-white">
-                {service.titleEs} ·{" "}
-                <span className="text-sm text-white/50">
-                  {service.titleEn}
-                </span>
+                <div className="flex flex-col gap-4 md:flex-row md:items-center">
+                  {service.image && (
+                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/40">
+                      <Image
+                        src={service.image}
+                        alt={service.titleEs}
+                        width={220}
+                        height={140}
+                        className="h-24 w-40 object-cover"
+                      />
+                    </div>
+                  )}
+                  <div>
+                    {service.titleEs} ·{" "}
+                    <span className="text-sm text-white/50">
+                      {service.titleEn}
+                    </span>
+                  </div>
+                </div>
               </summary>
               <div className="mt-4 grid gap-4 md:grid-cols-2">
                 <div>

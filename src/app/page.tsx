@@ -80,6 +80,44 @@ export default async function Home() {
         </div>
       </section>
 
+      <section className="px-6 pb-10">
+        <div className="mx-auto grid w-full max-w-6xl gap-6 lg:grid-cols-2">
+          <div className="overflow-hidden rounded-[32px] border border-white/10 bg-white/5">
+            <Image
+              src="/visuals/hero-premium.svg"
+              alt="Visual premium iPeak"
+              width={1600}
+              height={1000}
+              className="h-full w-full object-cover opacity-90"
+              priority
+            />
+          </div>
+          <div className="flex flex-col justify-between gap-6 rounded-[32px] border border-white/10 bg-white/5 p-8">
+            <div className="space-y-3">
+              <p className="text-xs uppercase tracking-[0.3em] text-white/50">
+                Visual Impact
+              </p>
+              <h3 className="text-2xl font-semibold">
+                Webs y automatizaciones con estética premium.
+              </h3>
+              <p className="text-base text-white/70">
+                Diseño que transmite confianza, producto y performance en cada
+                interacción.
+              </p>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/40">
+              <Image
+                src="/visuals/dashboard-premium.svg"
+                alt="Dashboard y experiencia digital"
+                width={1600}
+                height={1000}
+                className="h-full w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="servicios" className="px-6 py-24">
         <div className="mx-auto w-full max-w-6xl">
           <div className="flex flex-col gap-3">
@@ -99,6 +137,17 @@ export default async function Home() {
                 key={service.id}
                 className="glass-card group flex flex-col gap-4 rounded-3xl p-6 transition hover:-translate-y-1 hover:border-white/30"
               >
+                {service.image && (
+                  <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/30">
+                    <Image
+                      src={service.image}
+                      alt={service.titleEs}
+                      width={480}
+                      height={320}
+                      className="h-40 w-full object-cover"
+                    />
+                  </div>
+                )}
                 <div>
                   <p className="text-lg font-semibold">{service.titleEs}</p>
                   <p className="text-xs text-white/40">{service.titleEn}</p>

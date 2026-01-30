@@ -4,6 +4,7 @@ export type Service = {
   id: string;
   titleEs: string;
   titleEn: string;
+  image?: string;
   bulletsEs: string[];
   bulletsEn: string[];
 };

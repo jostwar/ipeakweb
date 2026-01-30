@@ -3,6 +3,7 @@
     "id": "marketing",
     "titleEs": "Marketing",
     "titleEn": "Marketing",
+    "image": "/services/marketing.svg",
     "bulletsEs": [
       "Aumenta leads calificados con campañas enfocadas en ROI.",
       "Mejora conversión con pruebas A/B y optimización continua.",
@@ -18,6 +19,7 @@
     "id": "branding",
     "titleEs": "Branding",
     "titleEn": "Branding",
+    "image": "/services/branding.svg",
     "bulletsEs": [
       "Identidad visual coherente y premium en todos los canales.",
       "Narrativa de marca que genera confianza y recordación.",
@@ -33,6 +35,7 @@
     "id": "web-design",
     "titleEs": "Diseño Web",
     "titleEn": "Web Design",
+    "image": "/services/web-design.svg",
     "bulletsEs": [
       "Websites rápidos, elegantes y orientados a conversión.",
       "Arquitectura clara para SEO y crecimiento orgánico.",
@@ -48,6 +51,7 @@
     "id": "app-design",
     "titleEs": "Diseño de Apps",
     "titleEn": "App Design",
+    "image": "/services/app-design.svg",
     "bulletsEs": [
       "UX/UI centrado en usuarios y métricas de negocio.",
       "Prototipos listos para validar en semanas, no meses.",
@@ -63,6 +67,7 @@
     "id": "content",
     "titleEs": "Desarrollo de Contenidos",
     "titleEn": "Content Development",
+    "image": "/services/content.svg",
     "bulletsEs": [
       "Mensajes claros que elevan la percepción de valor.",
       "Calendarios editoriales para escalar demanda.",
@@ -78,6 +83,7 @@
     "id": "ai-assistants",
     "titleEs": "Asistentes Virtuales con AI",
     "titleEn": "AI Virtual Assistants",
+    "image": "/services/ai-assistants.svg",
     "bulletsEs": [
       "Automatiza ventas, soporte y atención al cliente 24/7.",
       "Respuestas en tiempo real con tono profesional.",

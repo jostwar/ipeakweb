@@ -1,0 +1,40 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0B10" />
+      <stop offset="1" stop-color="#12121A" />
+    </linearGradient>
+    <linearGradient id="wave1" x1="100" y1="520" x2="1500" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#44D7FF" />
+      <stop offset="0.5" stop-color="#D466FF" />
+      <stop offset="1" stop-color="#7CFF6B" />
+    </linearGradient>
+    <linearGradient id="glow" x1="400" y1="200" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CFF6B" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#44D7FF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect x="120" y="140" width="1360" height="720" rx="48" fill="url(#glow)" />
+  <g opacity="0.18" stroke="#3A3A4A" stroke-width="1">
+    <path d="M120 260H1480" />
+    <path d="M120 340H1480" />
+    <path d="M120 420H1480" />
+    <path d="M120 500H1480" />
+    <path d="M120 580H1480" />
+    <path d="M120 660H1480" />
+    <path d="M120 740H1480" />
+    <path d="M260 140V860" />
+    <path d="M420 140V860" />
+    <path d="M580 140V860" />
+    <path d="M740 140V860" />
+    <path d="M900 140V860" />
+    <path d="M1060 140V860" />
+    <path d="M1220 140V860" />
+    <path d="M1380 140V860" />
+  </g>
+  <path d="M120 620C260 520 380 680 520 600C660 520 780 700 920 620C1060 540 1180 720 1320 640C1420 586 1480 560 1580 540" stroke="url(#wave1)" stroke-width="6" stroke-linecap="round" />
+  <path d="M80 520C220 440 360 620 520 520C680 420 800 640 980 560C1120 500 1260 660 1420 600" stroke="url(#wave1)" stroke-width="3" stroke-linecap="round" opacity="0.7" />
+  <circle cx="1180" cy="300" r="90" fill="#7CFF6B" opacity="0.12" />
+  <circle cx="420" cy="760" r="120" fill="#44D7FF" opacity="0.08" />
+</svg>
