@@ -60,8 +60,7 @@ export default async function Home() {
           <div className="glass-card rounded-[32px] p-8">
             <div className="space-y-4">
               <p className="text-sm text-white/60">
-                The all-in-one most powerful AI conversational CRM to boost
-                efficiency and close deals faster.
+                The all-in-one AI conversational CRM to boost efficiency.
               </p>
               <p className="text-2xl font-semibold">
                 Inteligencia que conecta. Automatización que impulsa resultados.
@@ -69,11 +68,10 @@ export default async function Home() {
               <ul className="space-y-2 text-sm text-white/70">
                 <li>• Automatiza conversaciones y gestiona leads.</li>
                 <li>• Responde en tiempo real en WhatsApp, web y redes.</li>
-                <li>• Experiencia consistente, profesional y escalable.</li>
+                <li>• Experiencia profesional y escalable.</li>
               </ul>
               <p className="text-xs text-white/50">
-                Your AI turns conversations into deals and follows up
-                automáticamente.
+                Your AI turns conversations into deals with smart follow-ups.
               </p>
             </div>
           </div>
@@ -141,8 +139,7 @@ export default async function Home() {
               real con una experiencia consistente y profesional.
             </p>
             <p className="text-xs text-white/50">
-              The all-in-one most powerful AI conversational CRM to boost
-              efficiency and close deals faster.
+              AI CRM that boosts efficiency and closes deals faster.
             </p>
           </div>
           <div className="space-y-4 text-sm text-white/70">
@@ -151,33 +148,15 @@ export default async function Home() {
               aumenta la eficiencia del equipo.
             </p>
             <ul className="space-y-2">
-              <li>
-                • WhatsApp, web, redes sociales y más en un ecosistema
-                inteligente.
-              </li>
-              <li>• Every WhatsApp, Instagram, Facebook, and Email handled.</li>
-              <li>
-                • Tu AI convierte conversaciones en deals y activa
-                automatizaciones.
-              </li>
-              <li>
-                • Even voice messages are perfectly understood and transcribed.
-              </li>
-              <li>
-                • When human touch is needed, AI assigns conversations to tu
-                equipo.
-              </li>
-              <li>
-                • Follow-up sequences garantizan outreach oportuno y relevante.
-              </li>
-              <li>
-                • Real-time analytics and instant insights para decisiones
-                rápidas.
-              </li>
-              <li>
-                • Supercharge your inbox: AI gestiona emails según tus objetivos.
-              </li>
+              <li>• WhatsApp, web y redes en un solo ecosistema.</li>
+              <li>• AI convierte conversaciones en oportunidades.</li>
+              <li>• Voice notes transcritas en tiempo real.</li>
+              <li>• Asignación automática a tu equipo cuando se necesita.</li>
+              <li>• Insights en tiempo real para decisiones rápidas.</li>
             </ul>
+            <p className="text-xs text-white/50">
+              Follow-up sequences garantizan outreach oportuno.
+            </p>
           </div>
         </div>
       </section>
