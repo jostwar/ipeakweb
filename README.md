@@ -111,3 +111,4 @@ El flujo ejecuta `git pull`, `npm install`, `npm run build` y reinicia PM2.
 
 - `POST /api/contact` — valida y registra leads (opcional con Resend).
 - `POST /api/checkout` — crea sesiones de Stripe Checkout.
+
