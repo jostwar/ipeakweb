@@ -39,7 +39,7 @@ export async function POST(request: Request) {
   }
 
   const stripe = new Stripe(secretKey, {
-    apiVersion: "2024-04-10",
+    apiVersion: "2026-01-28.clover",
   });
 
   const origin = request.headers.get("origin") || "http://localhost:3000";
