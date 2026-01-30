@@ -33,27 +33,27 @@ export default async function Home() {
               Estrategia, contenido y automatización para crecer ventas con
               claridad.
             </h1>
-            <p className="text-lg text-white/70">
+            <p className="text-xl text-white/70">
               Marketing digital, branding y asistentes virtuales.
             </p>
-            <p className="text-sm text-white/50">
+            <p className="text-base text-white/50">
               Strategy, content & automation to grow sales with clarity.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
               <a
                 href="#contacto"
-                className="rounded-full bg-white px-6 py-3 text-center text-sm font-semibold text-black transition hover:bg-white/90"
+                className="rounded-full bg-white px-6 py-3 text-center text-base font-semibold text-black transition hover:bg-white/90"
               >
                 Agenda una llamada
               </a>
               <Link
                 href="/servicios"
-                className="rounded-full border border-white/30 px-6 py-3 text-center text-sm font-semibold text-white transition hover:border-white/60"
+                className="rounded-full border border-white/30 px-6 py-3 text-center text-base font-semibold text-white transition hover:border-white/60"
               >
                 Ver servicios
               </Link>
             </div>
-            <div className="flex flex-wrap gap-4 text-xs text-white/60">
+            <div className="flex flex-wrap gap-4 text-sm text-white/60">
               <span>Sin contratos largos (según plan)</span>
               <span>Reportes mensuales</span>
               <span>Respuesta en 24h</span>
@@ -61,18 +61,18 @@ export default async function Home() {
           </div>
           <div className="glass-card rounded-[32px] p-8">
             <div className="space-y-4">
-              <p className="text-sm text-white/60">
+              <p className="text-base text-white/60">
                 The all-in-one AI conversational CRM to boost efficiency.
               </p>
               <p className="text-2xl font-semibold">
                 Inteligencia que conecta. Automatización que impulsa resultados.
               </p>
-              <ul className="space-y-2 text-sm text-white/70">
+              <ul className="space-y-2 text-base text-white/70">
                 <li>• Automatiza conversaciones y gestiona leads.</li>
                 <li>• Responde en tiempo real en WhatsApp, web y redes.</li>
                 <li>• Experiencia profesional y escalable.</li>
               </ul>
-              <p className="text-xs text-white/50">
+              <p className="text-sm text-white/50">
                 Your AI turns conversations into deals with smart follow-ups.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default async function Home() {
             <h2 className="text-3xl font-semibold">
               Soluciones integrales para acelerar crecimiento.
             </h2>
-            <p className="text-sm text-white/60">
+            <p className="text-base text-white/60">
               Build, scale and automate with a premium experience.
             </p>
           </div>
@@ -103,19 +103,19 @@ export default async function Home() {
                   <p className="text-lg font-semibold">{service.titleEs}</p>
                   <p className="text-xs text-white/40">{service.titleEn}</p>
                 </div>
-                <ul className="space-y-2 text-sm text-white/70">
+                <ul className="space-y-2 text-base text-white/70">
                   {service.bulletsEs.map((bullet) => (
                     <li key={bullet}>• {bullet}</li>
                   ))}
                 </ul>
-                <ul className="space-y-2 text-xs text-white/40">
+                <ul className="space-y-2 text-sm text-white/40">
                   {service.bulletsEn.map((bullet) => (
                     <li key={bullet}>{bullet}</li>
                   ))}
                 </ul>
                 <Link
                   href="/checkout"
-                  className="mt-auto inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/50"
+                  className="mt-auto inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-2 text-base font-semibold text-white transition hover:border-white/50"
                 >
                   Cotizar
                 </Link>
@@ -135,16 +135,16 @@ export default async function Home() {
               iPeak ofrece la plataforma que transforma la atención al cliente,
               las ventas y el soporte técnico.
             </h3>
-            <p className="text-sm text-white/70">
+            <p className="text-base text-white/70">
               Integramos inteligencia artificial con tus canales digitales para
               automatizar conversaciones, gestionar leads y responder en tiempo
               real con una experiencia consistente y profesional.
             </p>
-            <p className="text-xs text-white/50">
+            <p className="text-sm text-white/50">
               AI CRM that boosts efficiency and closes deals faster.
             </p>
           </div>
-          <div className="space-y-4 text-sm text-white/70">
+          <div className="space-y-4 text-base text-white/70">
             <p>
               Con iPeak, tu negocio atiende 24/7, reduce costos operativos y
               aumenta la eficiencia del equipo.
@@ -156,7 +156,7 @@ export default async function Home() {
               <li>• Asignación automática a tu equipo cuando se necesita.</li>
               <li>• Insights en tiempo real para decisiones rápidas.</li>
             </ul>
-            <p className="text-xs text-white/50">
+            <p className="text-sm text-white/50">
               Follow-up sequences garantizan outreach oportuno.
             </p>
           </div>
@@ -177,7 +177,7 @@ export default async function Home() {
             {clients.map((client) => (
               <div
                 key={client.id}
-                className="flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-4 py-8 text-sm text-white/40"
+                className="flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-4 py-8 text-base text-white/40"
               >
                 {client.logo ? (
                   <Image
@@ -212,8 +212,8 @@ export default async function Home() {
                 key={testimonial.id}
                 className="glass-card space-y-4 rounded-3xl p-6"
               >
-                <p className="text-sm text-white/70">{testimonial.quote}</p>
-                <div className="text-xs text-white/50">
+                <p className="text-base text-white/70">{testimonial.quote}</p>
+                <div className="text-sm text-white/50">
                   <p className="text-sm font-semibold text-white">
                     {testimonial.name}
                   </p>
@@ -236,7 +236,7 @@ export default async function Home() {
             <h2 className="text-3xl font-semibold">
               Planes flexibles para cada etapa.
             </h2>
-            <p className="text-sm text-white/60">
+            <p className="text-base text-white/60">
               Pagos seguros con Stripe. Facturación disponible.
             </p>
           </div>
@@ -252,20 +252,20 @@ export default async function Home() {
               >
                 <div className="space-y-2">
                   <p className="text-lg font-semibold">{plan.name}</p>
-                  <p className="text-sm text-white/70">{plan.subtitleEs}</p>
-                  <p className="text-xs text-white/40">{plan.subtitleEn}</p>
+                  <p className="text-base text-white/70">{plan.subtitleEs}</p>
+                  <p className="text-sm text-white/40">{plan.subtitleEn}</p>
                 </div>
-                <ul className="mt-6 space-y-2 text-sm text-white/70">
+                <ul className="mt-6 space-y-2 text-base text-white/70">
                   {plan.features.map((feature) => (
                     <li key={feature}>• {feature}</li>
                   ))}
                 </ul>
                 {plan.note && (
-                  <p className="mt-4 text-xs text-white/40">{plan.note}</p>
+                  <p className="mt-4 text-sm text-white/40">{plan.note}</p>
                 )}
                 <Link
                   href={`/checkout?plan=${plan.id}`}
-                  className={`mt-6 inline-flex w-full items-center justify-center rounded-full px-4 py-3 text-sm font-semibold transition ${
+                  className={`mt-6 inline-flex w-full items-center justify-center rounded-full px-4 py-3 text-base font-semibold transition ${
                     plan.highlight
                       ? "bg-white text-black hover:bg-white/90"
                       : "bg-white/10 text-white hover:bg-white/20"
@@ -276,7 +276,7 @@ export default async function Home() {
               </div>
             ))}
           </div>
-          <p className="mt-4 text-xs text-white/40">
+          <p className="mt-4 text-sm text-white/40">
             Pagos seguros con Stripe. Facturación disponible.
           </p>
         </div>
@@ -296,12 +296,12 @@ export default async function Home() {
             {faqItems.map((item) => (
               <details
                 key={item.id}
-                className="rounded-2xl border border-white/10 bg-white/5 p-5 text-sm text-white/70"
+                className="rounded-2xl border border-white/10 bg-white/5 p-5 text-base text-white/70"
               >
-                <summary className="cursor-pointer text-sm font-semibold text-white">
+                <summary className="cursor-pointer text-base font-semibold text-white">
                   {item.question}
                 </summary>
-                <p className="mt-3 text-sm text-white/60">{item.answer}</p>
+                <p className="mt-3 text-base text-white/60">{item.answer}</p>
               </details>
             ))}
           </div>
@@ -317,14 +317,14 @@ export default async function Home() {
             <h2 className="text-3xl font-semibold">
               Construyamos tu próximo sistema de crecimiento.
             </h2>
-            <p className="text-sm text-white/70">
+            <p className="text-base text-white/70">
               Cuéntanos sobre tus objetivos y te enviaremos una propuesta en 48h
               hábiles.
             </p>
-            <p className="text-xs text-white/50">
+            <p className="text-sm text-white/50">
               Tell us about your goals and we will send a clear plan.
             </p>
-            <div className="space-y-2 text-sm text-white/60">
+            <div className="space-y-2 text-base text-white/60">
               <p>hola@ipeakagency.com</p>
               <p>WhatsApp: +00 000 000 000</p>
             </div>

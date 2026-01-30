@@ -15,7 +15,7 @@ export default async function ServiciosPage() {
           <h1 className="text-4xl font-semibold">
             Soluciones a medida para ventas, branding y automatización.
           </h1>
-          <p className="text-sm text-white/60">
+          <p className="text-base text-white/60">
             Explore en detalle cada servicio y agenda una llamada para definir
             el alcance.
           </p>
@@ -35,20 +35,20 @@ export default async function ServiciosPage() {
               </summary>
               <div className="mt-4 grid gap-4 md:grid-cols-2">
                 <div>
-                  <p className="text-sm font-semibold text-white/70">
+                  <p className="text-base font-semibold text-white/70">
                     Beneficios
                   </p>
-                  <ul className="mt-2 space-y-2 text-sm text-white/60">
+                  <ul className="mt-2 space-y-2 text-base text-white/60">
                     {service.bulletsEs.map((bullet) => (
                       <li key={bullet}>• {bullet}</li>
                     ))}
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-white/70">
+                  <p className="text-base font-semibold text-white/70">
                     Benefits
                   </p>
-                  <ul className="mt-2 space-y-2 text-sm text-white/50">
+                  <ul className="mt-2 space-y-2 text-base text-white/50">
                     {service.bulletsEn.map((bullet) => (
                       <li key={bullet}>{bullet}</li>
                     ))}
@@ -58,13 +58,13 @@ export default async function ServiciosPage() {
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                 <a
                   href="/#contacto"
-                  className="rounded-full bg-white px-6 py-3 text-center text-sm font-semibold text-black transition hover:bg-white/90"
+                  className="rounded-full bg-white px-6 py-3 text-center text-base font-semibold text-black transition hover:bg-white/90"
                 >
                   Agenda una llamada
                 </a>
                 <Link
                   href="/checkout"
-                  className="rounded-full border border-white/20 px-6 py-3 text-center text-sm font-semibold text-white transition hover:border-white/50"
+                  className="rounded-full border border-white/20 px-6 py-3 text-center text-base font-semibold text-white transition hover:border-white/50"
                 >
                   Pagar paquete
                 </Link>

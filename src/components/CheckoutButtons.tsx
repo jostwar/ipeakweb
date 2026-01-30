@@ -51,17 +51,17 @@ export default function CheckoutButtons({ initialPlan, isDemo }: Props) {
         >
           <div className="space-y-2">
             <p className="text-lg font-semibold text-white">{plan.name}</p>
-            <p className="text-sm text-white/60">{plan.subtitleEs}</p>
-            <p className="text-xs text-white/40">{plan.subtitleEn}</p>
+            <p className="text-base text-white/60">{plan.subtitleEs}</p>
+            <p className="text-sm text-white/40">{plan.subtitleEn}</p>
           </div>
-          <ul className="mt-6 space-y-2 text-sm text-white/70">
+          <ul className="mt-6 space-y-2 text-base text-white/70">
             {plan.features.map((feature) => (
               <li key={feature}>• {feature}</li>
             ))}
           </ul>
           <button
             onClick={() => handleCheckout(plan.id)}
-            className={`mt-6 w-full rounded-full px-4 py-3 text-sm font-semibold transition ${
+            className={`mt-6 w-full rounded-full px-4 py-3 text-base font-semibold transition ${
               plan.id === "growth"
                 ? "bg-white text-black hover:bg-white/90"
                 : "bg-white/10 text-white hover:bg-white/20"

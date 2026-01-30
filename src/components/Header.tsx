@@ -17,7 +17,7 @@ export default function Header() {
         <Link href="/" className="transition hover:opacity-90">
           <Logo />
         </Link>
-        <nav className="hidden items-center gap-6 text-sm text-white/70 md:flex">
+        <nav className="hidden items-center gap-6 text-base text-white/70 md:flex">
           {navItems.map((item) => (
             <a
               key={item.href}
@@ -37,14 +37,14 @@ export default function Header() {
           </Link>
           <a
             href="/#contacto"
-            className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-black transition hover:bg-white/90"
+            className="rounded-full bg-white px-4 py-2 text-base font-semibold text-black transition hover:bg-white/90"
           >
             Agenda una llamada
           </a>
         </div>
       </div>
       <div className="border-t border-white/5 md:hidden">
-        <div className="flex items-center gap-4 overflow-x-auto px-6 py-3 text-sm text-white/70">
+        <div className="flex items-center gap-4 overflow-x-auto px-6 py-3 text-base text-white/70">
           {navItems.map((item) => (
             <a
               key={item.href}

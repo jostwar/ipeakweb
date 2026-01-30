@@ -24,19 +24,19 @@ export default function CheckoutPage({ searchParams }: CheckoutPageProps) {
             Checkout
           </p>
           <h1 className="text-4xl font-semibold">Paga tu plan en minutos.</h1>
-          <p className="text-sm text-white/60">
+          <p className="text-base text-white/60">
             Pagos seguros con Stripe. Facturación disponible.
           </p>
         </div>
 
         {searchParams?.canceled === "1" && (
-          <div className="rounded-2xl border border-amber-400/30 bg-amber-400/10 p-4 text-sm text-amber-200">
+          <div className="rounded-2xl border border-amber-400/30 bg-amber-400/10 p-4 text-base text-amber-200">
             El pago fue cancelado. Puedes intentarlo de nuevo cuando quieras.
           </div>
         )}
 
         {isDemo && (
-          <div className="rounded-2xl border border-white/20 bg-white/5 p-4 text-sm text-white/70">
+          <div className="rounded-2xl border border-white/20 bg-white/5 p-4 text-base text-white/70">
             Modo demo activo: configura Stripe en tus variables de entorno para
             habilitar pagos reales.
           </div>
