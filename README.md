@@ -104,86 +104,8 @@ El flujo ejecuta `git pull`, `npm install`, `npm run build` y reinicia PM2.
 
 ## Deploy
 
-### Vercel
-
-1. Importa el repo en Vercel.
-2. Agrega las variables de entorno.
-3. Deploy.
-
-### AWS Lightsail
-Paso a paso (Ubuntu 22.04):
-
-1. Crea una instancia en Lightsail con Ubuntu 22.04.
-2. Abre el firewall: 22 (SSH) y 80/443 (HTTP/HTTPS).
-3. En tu proveedor DNS crea un registro **A** para `ipeakagency.com` apuntando a `3.138.118.118`.
-4. (Opcional) Crea un registro **A** para `www.ipeakagency.com` apuntando a `3.138.118.118`.
-5. Conéctate por SSH y actualiza:
-
-```bash
-sudo apt update && sudo apt upgrade -y
-```
-
-6. Instala Node.js 20 (LTS):
-
-```bash
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
-```
-
-7. Sube el proyecto (git clone o scp) y configura `.env.local`.
-8. Instala y build:
-
-```bash
-npm install
-npm run build
-```
-
-9. Ejecuta el servidor en producción con PM2:
-
-```bash
-sudo npm install -g pm2
-pm2 start npm --name "ipeakweb" -- start
-pm2 save
-```
-
-10. Instala Nginx como proxy:
-
-```bash
-sudo apt install -y nginx
-```
-
-11. Configura `/etc/nginx/sites-available/ipeakweb`:
-
-```nginx
-server {
-  listen 80;
-  server_name ipeakagency.com;
-
-  location / {
-    proxy_pass http://localhost:3000;
-    proxy_http_version 1.1;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection 'upgrade';
-    proxy_set_header Host $host;
-    proxy_cache_bypass $http_upgrade;
-  }
-}
-```
-
-12. Habilita el sitio y reinicia Nginx:
-
-```bash
-sudo ln -s /etc/nginx/sites-available/ipeakweb /etc/nginx/sites-enabled/
-sudo nginx -t
-sudo systemctl restart nginx
-```
-
-13. (Opcional) Agrega SSL con Certbot:
-
-```bash
-sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d ipeakagency.com
-```
+- Vercel: importa repo, agrega env vars y deploy.
+- Lightsail: instala Node 20 + PM2 + Nginx, build y ejecuta.
 
 ## Endpoints
 
